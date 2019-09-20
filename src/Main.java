@@ -120,7 +120,7 @@ public class Main {
                
             // Put together the json string to send to the server
             JSONObject json = new JSONObject(); 
-            json.put("key", "cjjordan234@gmail.com");
+            json.put("id", "cjjordan234@gmail.com");
             json.put("name", "Casey Jordan");
             json.put("average", calculateClassAverage(students));
             json.put("studentIds", femaleDevelopers.toArray());
